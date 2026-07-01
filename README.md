@@ -205,15 +205,6 @@ python -m pytest
 
 ---
 
-## 📊 3D & Visual Enhancements
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AyushGU12&layout=donut&theme=radical" alt="Top Languages" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AyushGU12&theme=radical" alt="GitHub Streak" />
-</div>
-
----
-
 ## 🤝 Contributing Guide
 
 1. Fork the Project
