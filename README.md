@@ -159,6 +159,35 @@ sequenceDiagram
 
 ---
 
+## 🚢 Deployment & Infrastructure
+
+The application supports a dual-model execution strategy managed entirely via environment variables.
+
+### 🔑 Environment Variables
+Create a `.env` file at the root:
+```env
+PORT=5000
+FLASK_ENV=production
+# Leave DATABASE_URL commented for local SQLite, or provide a PostgreSQL string
+# DATABASE_URL=postgresql://user:pass@host:5432/db
+```
+
+### Model 1: Local Containerized Stack (Docker)
+Fully self-contained deployment using `docker-compose`. Default database is SQLite.
+```bash
+# Build and run the stack
+docker-compose -f infra/docker/docker-compose.yml up --build -d
+```
+The application will be available at `http://localhost:8080`.
+
+### Model 2: Cloud Native (Vercel + Render)
+Designed for enterprise scaling and managed cloud services.
+1. **Database:** Provision a managed PostgreSQL instance and set `DATABASE_URL`.
+2. **Backend (Render):** Deployed natively using `infra/cloud/render.yaml`.
+3. **Frontend (Vercel):** Deployed via `infra/cloud/vercel.json`, which automatically proxies `/api` calls to the Render backend.
+
+---
+
 ## 📡 API Documentation
 
 ### Resolve Domain

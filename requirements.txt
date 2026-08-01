@@ -1,2 +1,7 @@
 pytest
 Flask
+Flask-Cors
+Flask-SQLAlchemy
+psycopg2-binary
+gunicorn
+python-dotenv

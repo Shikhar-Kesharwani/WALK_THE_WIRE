@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: dns-resolver-backend
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "gunicorn -b 0.0.0.0:$PORT src.web:app"
+    envVars:
+      - key: FLASK_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: dns-resolver-db
+          property: connectionString
+
+databases:
+  - name: dns-resolver-db
+    plan: free
