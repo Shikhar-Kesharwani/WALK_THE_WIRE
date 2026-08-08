@@ -64,8 +64,17 @@ def index():
     return app.send_static_file('index.html')
 
 @app.route('/api/health')
-def health():
+def api_health():
     return jsonify({"status": "UP"}), 200
+
+@app.route('/health')
+def health_check():
+    return jsonify({"status": "ok", "service": "dns-resolver-backend"})
+
+@app.route('/ready')
+def readiness_check():
+    return jsonify({"status": "ready"})
+
 
 @app.route('/api/ready')
 def ready():
@@ -117,5 +126,5 @@ def api_resolve():
     })
 
 if __name__ == '__main__':
-    port = int(os.getenv("PORT", 5000))
+    port = int(os.getenv("PORT", 8000))
     app.run(host='0.0.0.0', port=port, debug=os.getenv("FLASK_ENV") == "development")

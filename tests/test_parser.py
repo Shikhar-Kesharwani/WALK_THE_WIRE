@@ -1,4 +1,5 @@
 import socket
+import pytest
 from src.encoder import build_query
 from src.parser import parse_response
 

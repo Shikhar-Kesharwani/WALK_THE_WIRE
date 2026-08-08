@@ -21,6 +21,11 @@ services:
       - "5000:5000"
     env_file:
       - ../../.env
+    volumes:
+      - sqlite_data:/app/instance
     environment:
       - FLASK_ENV=production
     restart: always
+
+volumes:
+  sqlite_data:
