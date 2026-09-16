@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=250&section=header&text=Walk%20The%20Wire&fontSize=80&animation=fadeIn&fontAlignY=35&desc=A%20Ground-Up%20Iterative%20DNS%20Resolver&descAlignY=55&descAlign=50" />
 
@@ -12,9 +12,9 @@
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-[![GitHub stars](https://img.shields.io/github/stars/AyushGU12/WALK_THE_WIRE?style=social)](https://github.com/AyushGU12/WALK_THE_WIRE/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/AyushGU12/WALK_THE_WIRE?style=social)](https://github.com/AyushGU12/WALK_THE_WIRE/network)
-[![GitHub issues](https://img.shields.io/github/issues/AyushGU12/WALK_THE_WIRE)](https://github.com/AyushGU12/WALK_THE_WIRE/issues)
+[![GitHub stars](https://img.shields.io/github/stars/Shikhar-Kesharwani/dns_resolver?style=social)](https://github.com/Shikhar-Kesharwani/dns_resolver/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/Shikhar-Kesharwani/dns_resolver?style=social)](https://github.com/Shikhar-Kesharwani/dns_resolver/network)
+[![GitHub issues](https://img.shields.io/github/issues/Shikhar-Kesharwani/dns_resolver)](https://github.com/Shikhar-Kesharwani/dns_resolver/issues)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
@@ -137,7 +137,7 @@ sequenceDiagram
 ### Local Setup
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/AyushGU12/WALK_THE_WIRE.git
+   git clone https://github.com/Shikhar-Kesharwani/dns_resolver.git
    cd WALK_THE_WIRE
    ```
 
@@ -249,9 +249,9 @@ python -m pytest
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" />
   
-  <p>Built with ❤️ by <a href="https://github.com/AyushGU12">Ayush</a></p>
+  <p>Built with ❤️ by <a href="https://github.com/Shikhar-Kesharwani">Ayush</a></p>
   
-  <a href="https://github.com/AyushGU12/WALK_THE_WIRE/stargazers"><img src="https://img.shields.io/github/stars/AyushGU12/WALK_THE_WIRE?style=social" alt="Stars"></a>
+  <a href="https://github.com/Shikhar-Kesharwani/dns_resolver/stargazers"><img src="https://img.shields.io/github/stars/Shikhar-Kesharwani/dns_resolver?style=social" alt="Stars"></a>
 </div>
 
 
