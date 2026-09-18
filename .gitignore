@@ -1,0 +1,24 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite3
+instance/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
